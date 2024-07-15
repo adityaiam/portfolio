@@ -23,6 +23,21 @@ const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(
     }: LinkProps,
     ref
   ) => {
+    const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+      // Check if the link is a hash link
+      if (props.href && typeof props.href === 'string' && props.href.startsWith('#')) {
+        e.preventDefault();
+        const targetId = props.href.replace('#', '');
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: 'smooth',
+          });
+        }
+      }
+    };
+
     return (
       <NextLink
         {...props}
@@ -36,6 +51,7 @@ const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(
             : '',
           className
         )}
+        onClick={handleClick} // Add click handler
       >
         {children}
       </NextLink>
