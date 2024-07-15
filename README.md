@@ -2,18 +2,18 @@
 
 ## Portfolio
 
-###bash
+### bash
 Copy code
 git clone https://github.com/yourusername/yourprojectname.git
 cd yourprojectname
 Install the dependencies:
 
-###bash
+### bash
 Copy code
 npm install
 Set up environment variables:
 
-###Create a .env.local file in the root directory and add your environment variables. For example:
+### Create a .env.local file in the root directory and add your environment variables. For example:
 
 makefile
 Copy code
@@ -22,14 +22,14 @@ GOOGLE_ANALYTICS_ID=your-google-analytics-id
 🚀 Usage
 To run the project locally:
 
-###bash
+### bash
 Copy code
 npm run dev
 This will start the development server on http://localhost:3000.
 
 To build the project for production:
 
-###bash
+### bash
 Copy code
 npm run build
 npm start
@@ -40,10 +40,10 @@ npm start
 - **🔗 [](https://adityaingale.com)**  
 ---
 
-📜 License
+### 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-📧 Contact
+### 📧 Contact
 For any inquiries or questions, please contact Aditya Ingale.
 
 
