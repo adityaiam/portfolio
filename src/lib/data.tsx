@@ -31,6 +31,7 @@ import {
   ProjectDetails,
   TechDetails,
   EducationDetails,
+  TestimonialDetails
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
@@ -210,15 +211,9 @@ export const PROJECTS: ProjectDetails[] = [
   },
 ];
 
-// export const TESTIMONIALS: TestimonialDetails[] = [
-//   {
-//     personName: 'Aditya Ingale',
-//     personAvatar: eyrgf hj,
-//     title: 'Founder - xyz.io',
-//     testimonial:
-//       'bdh',
-//   }
-// ];
+export const TESTIMONIALS: TestimonialDetails[] = [
+
+];
 
 
 export const EDUCATION: EducationDetails[] = [
