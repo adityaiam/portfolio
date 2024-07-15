@@ -2,7 +2,7 @@
 
 ## Portfolio
 
-![Untitled](https://github.com/user-attachments/assets/a6533a53-53cf-4a89-95e1-a30e457ce3aa)
+![Untitled (1)](https://github.com/user-attachments/assets/4e78e23e-fb0b-4747-87de-00cd854cfdfa)
 
 
 ### bash
