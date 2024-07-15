@@ -4,14 +4,18 @@
 
 ### bash
 Copy code
+
 git clone [https://github.com/adityaiam/yourprojectname.git](https://github.com/adityaiam/portfolio.git)
+
 cd yourprojectname
 
 Install the dependencies:
 
 ### bash
 Copy code
+
 npm install
+
 Set up environment variables:
 
 ### Create a .env.local file in the root directory and add your environment variables. For example:
