@@ -4,7 +4,7 @@
 
 ### bash
 Copy code
-git clone https://github.com/yourusername/yourprojectname.git
+git clone [https://github.com/yourusername/yourprojectname.git](https://github.com/adityaiam/portfolio.git)
 cd yourprojectname
 Install the dependencies:
 
