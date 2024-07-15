@@ -5,7 +5,6 @@
 ### bash
 Copy code
 git clone [https://github.com/adityaiam/yourprojectname.git](https://github.com/adityaiam/portfolio.git)
-
 cd yourprojectname
 
 Install the dependencies:
