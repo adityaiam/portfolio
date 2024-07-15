@@ -41,10 +41,11 @@ npm start
 ---
 
 ### 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License
+---
 
 ### 📧 Contact
-For any inquiries or questions, please contact Aditya Ingale.
+For any inquiries or questions, please contact [Aditya Ingale](mailto:adityaingale1814@gmail.com)  
 
 
 
