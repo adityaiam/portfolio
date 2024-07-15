@@ -37,7 +37,7 @@ npm start
 
 
 ## 🔗 Links
-- **🔗 [](https://adityaingale.com)**  
+- **🔗 [Aditya Ingale](https://adityaingale.com)**  
 ---
 
 ### 📜 License
