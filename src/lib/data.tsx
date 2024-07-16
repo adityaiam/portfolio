@@ -178,7 +178,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Live Meeting Application',
     description:
-      'Live Meeting Application.',
+      'Video conferencing tool that enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.',
     url: 'https://orbit-olive.vercel.app/',
     view: 'Live',
     previewImage: ProjectOrbit,
@@ -195,7 +195,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Raw Material Management System',
     description:
-      'Raw Material Management System for Construction Company',
+      'The Management System for Construction Company offers a streamlined platform for customers and administrators. Administrators access a dynamic dashboard with graphical representations, enabling project creation, raw material management, customer oversight, supplier management, and contact tracking',
     url: '#',
     view: 'GitHub',
     previewImage: ProjectConstruction,
