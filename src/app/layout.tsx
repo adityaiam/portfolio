@@ -23,6 +23,12 @@ export const metadata: Metadata = {
     'Full Stack Developer',
     'React Developer',
     'Next.js Developer',
+    'Aditya Ingale',
+    'Aditya',
+    'Ingale',
+    'AI',
+    'Coder',
+    'adityaingale',
   ],
   creator: 'Aditya Ingale',
   themeColor: [
