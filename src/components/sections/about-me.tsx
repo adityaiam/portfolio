@@ -46,7 +46,7 @@ const AboutMeSection = () => {
             </ul>
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">Listener</Typography>
-              <Typography component="li">Currently building datadrift</Typography>
+              <Typography component="li">Building motiondrift</Typography>
             </ul>
           </div>
         </div>
