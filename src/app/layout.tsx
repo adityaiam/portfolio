@@ -40,6 +40,10 @@ export const metadata: Metadata = {
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png',
   },
+  social: {
+    github: 'https://github.com/adityaiam',
+    linkedin: 'https://www.linkedin.com/in/adityaingale',
+  },
 };
 
 const googleAnalyticsId = process.env.GOOGLE_ANALYTICS_ID;
