@@ -14,13 +14,6 @@ const description =
   'Full stack developer (React.js, Next.js & Spring Boot).';
 const url = 'https://adityaingale.com';
 
-interface CustomMetadata extends Metadata {
-  social?: {
-    github: string;
-    linkedin: string;
-  };
-}
-
 export const metadata: Metadata = {
   metadataBase: new URL(url),
   title,
@@ -46,10 +39,6 @@ export const metadata: Metadata = {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png',
-  },
-  social: {
-    github: 'https://github.com/adityaiam',
-    linkedin: 'https://www.linkedin.com/in/adityaingale',
   },
 };
 
