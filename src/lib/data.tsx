@@ -148,7 +148,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     company: 'TDS Management Consultant Pvt. Ltd',
     type: 'Full time',
     startDate: new Date(2024, 0),
-    endDate: new Date(2022, 4),
+    endDate: new Date(2024, 4),
     currentlyWorkHere: true,
     summary: [
       'My responsibilities include overseeing daily operations, ensuring team productivity, and creating detailed Excel reports to track our progress.',
