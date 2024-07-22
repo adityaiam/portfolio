@@ -149,7 +149,6 @@ export const EXPERIENCES: ExperienceDetails[] = [
     type: 'Full time',
     startDate: new Date(2024, 0),
     endDate: new Date(2024, 4),
-    currentlyWorkHere: true,
     summary: [
       'My responsibilities include overseeing daily operations, ensuring team productivity, and creating detailed Excel reports to track our progress.',
       'I am dedicated to fostering a positive work environment and achieving our project goals effectively.',
