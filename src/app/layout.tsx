@@ -53,6 +53,7 @@ export default function RootLayout({
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
       {googleAnalyticsId ? (
         <head>
+          <meta name="google-site-verification" content="VBfO4YkQOVA60uTtUOo-GAftDEP_orGlMKUL_WPmkiI" />
           <Script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
