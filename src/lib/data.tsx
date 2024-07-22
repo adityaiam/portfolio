@@ -98,11 +98,11 @@ export const TECHNOLOGIES: TechDetails[] = [
     label: 'Javascript',
     logo: LogoJavascript,
   },
-  {
-    label: 'Typescript',
-    logo: LogoTypescript,
-    // url: 'https://www.typescriptlang.org/',
-  },
+  // {
+  //   label: 'Typescript',
+  //   logo: LogoTypescript,
+  //   // url: 'https://www.typescriptlang.org/',
+  // },
   {
     label: 'React',
     logo: LogoReact,
@@ -114,10 +114,6 @@ export const TECHNOLOGIES: TechDetails[] = [
   {
     label: 'Node.js',
     logo: LogoNodejs,
-  },
-  {
-    label: 'MongoDB',
-    logo: LogoMongoDB,
   },
   {
     label: 'Tailwindcss',
