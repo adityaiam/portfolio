@@ -17,6 +17,7 @@ const HeroSection = () => {
               alt="Aditya Ingale"
               className="absolute rounded z-10 h-[280px] w-[240px] border-8 border-gray-100 max-md:left-5 md:left-0 md:top-0 md:h-[320px] md:w-[280px]"
               style={{ objectFit: 'cover' }}
+              title="Project by Aditya Ingale"
             ></Image>
             <div className="absolute h-[280px] w-[280px] border-8 border-transparent bg-gray max-md:top-5 md:bottom-0 md:right-0 md:h-[320px] md:w-[280px]"></div>
           </div>
