@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 const title = 'Aditya Ingale | Full Stack Developer';
 const description =
-  'Full stack developer (React.js, Next.js & Spring Boot).';
+  'Hello Im Aditya Ingale a full stack developer (React.js, Next.js & Spring Boot).';
 const url = 'https://adityaingale.com';
 
 export const metadata: Metadata = {
