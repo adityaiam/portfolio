@@ -74,7 +74,7 @@ export default function RootLayout({
 
           {/* Metadata */}
         <meta name="description" content={description} />
-        <meta name="author" content={metadata.creator} />
+        <meta name="author" content={creator} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:url" content={url} />
@@ -83,9 +83,9 @@ export default function RootLayout({
         <meta name="theme-color" content="white" media="(prefers-color-scheme: light)" />
         <meta name="theme-color" content="black" media="(prefers-color-scheme: dark)" />
         {/* Icons */}
-        <link rel="icon" href={metadata.icons.icon} />
-        <link rel="shortcut icon" href={metadata.icons.shortcut} />
-        <link rel="apple-touch-icon" href={metadata.icons.apple} />
+        <link rel="icon" href={icons.icon} />
+        <link rel="shortcut icon" href={icons.shortcut} />
+        <link rel="apple-touch-icon" href={icons.apple} />
 
 
 
