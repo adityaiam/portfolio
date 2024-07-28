@@ -43,20 +43,7 @@ export const metadata: Metadata = {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png',
-  },
-  openGraph: {
-    title,
-    description,
-    url,
-    type: 'website',
-    images: [
-      {
-        url: `/og-image.png`,
-        width: 1200, // Use appropriate width
-        height: 549, // Use appropriate height
-        alt: 'Aditya Ingale',
-      },
-    ],
+    image: '/og-image.png',
   },
 };
 
