@@ -71,6 +71,28 @@ export default function RootLayout({
             gtag('config', '${googleAnalyticsId}');
           `}
           </Script>
+
+          {/* Metadata */}
+        <meta name="description" content={description} />
+        <meta name="keywords" content={metadata.keywords.join(', ')} />
+        <meta name="author" content={metadata.creator} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={url} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={`${url}/og-image.png`} />
+        <meta name="theme-color" content="white" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="black" media="(prefers-color-scheme: dark)" />
+        {/* Icons */}
+        <link rel="icon" href={metadata.icons.icon} />
+        <link rel="shortcut icon" href={metadata.icons.shortcut} />
+        <link rel="apple-touch-icon" href={metadata.icons.apple} />
+
+
+
+
+
+          
         </head>
       ) : null}
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
