@@ -49,7 +49,14 @@ export const metadata: Metadata = {
     description,
     url,
     type: 'website',
-    image: `${url}/og-image.png`,
+    images: [
+      {
+        url: `${url}/og-image.png`,
+        width: 1200,  // You can specify width and height if you know them
+        height: 549,
+        alt: 'Aditya Ingale',
+      },
+    ],
   },
 };
 
