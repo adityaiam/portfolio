@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     description,
     url,
     type: 'website',
-    image: `/og-image.png`,
+    image: `${url}/og-image.png`,
   },
 };
 
