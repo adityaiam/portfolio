@@ -44,6 +44,20 @@ export const metadata: Metadata = {
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png',
   },
+  openGraph: {
+    title,
+    description,
+    url,
+    type: 'website',
+    images: [
+      {
+        url: `${url}/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: 'Aditya Ingale | Full Stack Developer',
+      },
+    ],
+  },
 };
 
 const googleAnalyticsId = process.env.GOOGLE_ANALYTICS_ID;
