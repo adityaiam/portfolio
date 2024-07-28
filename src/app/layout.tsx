@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 const title = 'Aditya Ingale | Full Stack Developer';
 const description =
-  'Hello I&apos;m Aditya Ingale a full stack developer (React.js, Next.js & Spring Boot).';
+  'Hello I&apos;m Aditya Ingale a full stack developer (React.js, Next.js & Spring Boot). Even though I have been creating web applications.';
 const url = 'https://adityaingale.com';
 
 export const metadata: Metadata = {
@@ -29,6 +29,10 @@ export const metadata: Metadata = {
     'AI',
     'Coder',
     'adityaingale',
+    'Skills',
+    'Pune',
+    'Management',
+    'have',
   ],
   creator: 'Aditya Ingale',
   themeColor: [
