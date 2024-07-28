@@ -52,8 +52,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: `${url}/og-image.png`,
-        width: 1200,  // You can specify width and height if you know them
-        height: 549,
+        width: 1200, // Use appropriate width
+        height: 549, // Use appropriate height
         alt: 'Aditya Ingale',
       },
     ],
