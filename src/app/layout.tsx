@@ -44,6 +44,13 @@ export const metadata: Metadata = {
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png',
   },
+  openGraph: {
+    title,
+    description,
+    url,
+    type: 'website',
+    image: `/og-image.png`,
+  },
 };
 
 const googleAnalyticsId = process.env.GOOGLE_ANALYTICS_ID;
@@ -71,13 +78,6 @@ export default function RootLayout({
             gtag('config', '${googleAnalyticsId}');
           `}
           </Script>
-
-          {/* Metadata */}
-        <meta property="og:description" content={description} />
-        <meta property="og:url" content={url} />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content={`${url}/og-image.png`} />
-
           
         </head>
       ) : null}
