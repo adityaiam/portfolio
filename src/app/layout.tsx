@@ -74,7 +74,6 @@ export default function RootLayout({
 
           {/* Metadata */}
         <meta name="description" content={description} />
-        <meta name="keywords" content={metadata.keywords.join(', ')} />
         <meta name="author" content={metadata.creator} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
