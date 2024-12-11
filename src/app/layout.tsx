@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: ${url}/og-image.png,
+       url: `${url}/og-image.png`,
         width: 1200,
         height: 630,
         alt: 'Aditya Ingale | Full Stack Developer',
