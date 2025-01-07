@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 const title = 'Aditya Ingale | Full Stack Developer';
 const description =
-  'Hello I&apos;m Aditya Ingale a full stack developer (React.js, Next.js & Spring Boot). Even though I have been creating web applications.';
+  'Full stack developer (React.js, Next.js & Spring Boot).';
 const url = 'https://adityaingale.com';
 
 export const metadata: Metadata = {
@@ -56,8 +56,6 @@ export const metadata: Metadata = {
         height: 630,
         alt: 'Aditya Ingale | Full Stack Developer',
       },
-    ],
-  },
 };
 
 const googleAnalyticsId = process.env.GOOGLE_ANALYTICS_ID;
@@ -71,24 +69,22 @@ export default function RootLayout({
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
       {googleAnalyticsId ? (
         <head>
-          <meta name="google-site-verification" content="VBfO4YkQOVA60uTtUOo-GAftDEP_orGlMKUL_WPmkiI" />
           <Script
             async
-            src={https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}}
+            src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
           ></Script>
           <Script id="google-anayltics-script">
-            {
+            {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
           
             gtag('config', '${googleAnalyticsId}');
-          }
+          `}
           </Script>
-          
         </head>
       ) : null}
-      <body className={${inter.className} bg-gray text-gray-600 antialiased}>
+      <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
         <Providers>
           <Header />
           <main className="flex min-h-screen w-full flex-col">{children}</main>
