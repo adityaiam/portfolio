@@ -143,15 +143,14 @@ export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoTDS,
     darkModeLogo: LogoTDSDark,
-    logoAlt: 'TDS Group',
+    logoAlt: 'Chrysalis Software & Systems Pvt. Ltd',
     position: 'Team Lead',
-    company: 'TDS Management Consultant Pvt. Ltd',
+    company: 'Chrysalis Software & Systems Pvt. Ltd',
     type: 'Full time',
     startDate: new Date(2024, 0),
-    endDate: new Date(2024, 4),
+    // endDate: new Date(2024, 4),
     summary: [
-      'My responsibilities include overseeing daily operations, ensuring team productivity, and creating detailed Excel reports to track our progress.',
-      'I am dedicated to fostering a positive work environment and achieving our project goals effectively.',
+      'Working with the team on web-based and mobile application development.',
     ],
   },
   {
