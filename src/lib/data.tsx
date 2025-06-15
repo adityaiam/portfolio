@@ -148,7 +148,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     company: 'Chrysalis Software & Systems Pvt. Ltd',
     type: 'Full time',
     startDate: new Date(2024, 0),
-    // endDate: new Date(2024, 4),
+    endDate: 'Present',
     summary: [
       'Working with the team on web-based and mobile application development.',
     ],
