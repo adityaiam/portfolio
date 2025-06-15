@@ -21,6 +21,7 @@ import LogoTDS from '/public/images/logos/logo-tds.svg';
 import LogoTDSDark from '/public/images/logos/logo-tds-dark.svg';
 import LogoIdeasToImpacts from '/public/images/logos/logo-i2id.svg';
 import LogoIdeasToImpactsDark from '/public/images/logos/logo-i2id-dark.svg';
+import LogoChrysalis from '/public/images/logos/chrysalis-logo.png';
 
 import ProjectConstruction from '/public/images/project-construction.png';
 import ProjectOrbit from '/public/images/project-orbit.png';
@@ -141,14 +142,14 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoTDS,
-    darkModeLogo: LogoTDSDark,
+    logo: LogoChrysalis,
+    darkModeLogo: LogoChrysalis,
     logoAlt: 'Chrysalis Software & Systems Pvt. Ltd',
     position: 'Team Lead',
     company: 'Chrysalis Software & Systems Pvt. Ltd',
     type: 'Full time',
     startDate: new Date(2024, 0),
-    endDate: 'Present',
+    endDate: new Date(0, 0),
     summary: [
       'Working with the team on web-based and mobile application development.',
     ],
