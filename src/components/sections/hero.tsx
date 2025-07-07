@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import { MapPin } from 'lucide-react';
 import AdityaIngale from '/public/images/aditya_ingale.png';
@@ -7,52 +9,46 @@ import Container from '@/components/layout/container';
 
 const HeroSection = () => {
   return (
-    <Container id="hero">
-      <div className="flex flex-col gap-12 md:flex-row">
-        {/* Image */}
-        <div className="flex items-center justify-center md:order-last md:flex-grow md:justify-end">
-          <div className="relative rounded h-[300px] w-[280px] md:h-[360px] md:w-[320px]">
-            <Image
-              src={AdityaIngale}
-              alt="Aditya Ingale"
-              className="absolute rounded z-10 h-[280px] w-[240px] border-8 border-gray-100 max-md:left-5 md:left-0 md:top-0 md:h-[320px] md:w-[280px]"
-              style={{ objectFit: 'cover' }}
-              title="Project by Aditya Ingale"
-            ></Image>
-            <div className="absolute h-[280px] w-[280px] border-8 border-transparent bg-gray max-md:top-5 md:bottom-0 md:right-0 md:h-[320px] md:w-[280px]"></div>
+    <Container id="hero" className="py-20 md:py-28">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12">
+        {/* Content */}
+        <div className="flex flex-col gap-6 md:max-w-2xl">
+          <Typography variant="h1">
+            Hi, I&apos;m <span className="font-bold text-gray-900 dark:text-gray-900">Aditya Ingale</span>{' '}
+            <span className="inline-block animate-waving-hand">🙋🏻‍♂️</span>
+          </Typography>
+
+          <Typography className=" text-lg leading-relaxed">
+            I&apos;m a passionate full-stack developer specializing in{' '}
+            <strong className="text-black dark:text-white">App Development, Web Applications, UI/UX Design, and large-scale systems designs</strong>, focused on
+            building high-performance, user-friendly, and visually engaging digital experiences that solve real-world problems.
+            <br />
+            I genuinely enjoy crafting applications from the ground up — and even today, I feel the same excitement with every new project I build.
+          </Typography>
+
+          {/* Location */}
+          <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400 text-sm">
+            <MapPin className="h-5 w-5" />
+            <Typography>Ahmednagar (Ahilyanagar), Maharashtra, India</Typography>
+          </div>
+
+          {/* Social Icons */}
+          <div className="pt-2">
+            <SocialIcons />
           </div>
         </div>
 
-        {/* Content */}
-        <div className="flex max-w-3xl flex-grow flex-col justify-center gap-8 md:order-first md:items-start md:justify-center 2xl:gap-12">
-          <div className="flex flex-col gap-2">
-            <Typography variant="h1">
-              Hi, I&apos;m <strong>Aditya Ingale</strong>{' '}
-              <span className="inline-block animate-waving-hand">🙋🏻‍♂️</span>
-            </Typography>
-            <Typography>
-              I&apos;m a passionate full stack developer specializing in React.js, Next.js and Spring Boot with a focus
-              on creating exceptional digital experiences that are user-friendly, visually appealing, and highly performant. 
-              Even though I have been creating web applications. I still love it as if it was something new.
-            </Typography>
-          </div>
-          <div className="flex flex-col gap-2">
-            <div className="flex gap-2">
-              <MapPin className="stroke-gray-600" />
-              <Typography>Ahmednagar(Ahilyanagar), Maharashtra, India</Typography>
-            </div>
-
-            {/* <div className="flex items-center gap-2">
-              <div className="flex h-6 w-6 items-center justify-center">
-                <span className="relative flex h-3 w-3">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
-                  <span className="relative inline-flex h-3 w-3 rounded-full bg-emerald-500"></span>
-                </span>
-              </div>
-              <Typography>Available for new projects</Typography>
-            </div> */}
-          </div>
-          <SocialIcons />
+        {/* Image */}
+        <div className="relative h-[300px] w-[260px] md:h-[360px] md:w-[300px]">
+          <div className="absolute top-2 left-4 h-full w-full rounded-xl z-0" />
+          <Image
+            src={AdityaIngale}
+            alt="Aditya Ingale"
+            className="relative z-10 rounded-xl border-4 border-white dark:border-neutral-800 object-cover shadow-2xl"
+            fill
+            style={{ objectFit: 'cover' }}
+            priority
+          />
         </div>
       </div>
     </Container>

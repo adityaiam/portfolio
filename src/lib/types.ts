@@ -7,6 +7,23 @@ export type TechDetails = {
   // url: string;
 };
 
+export interface GroupedExperienceDetails {
+  logo: StaticImageData;
+  darkModeLogo: StaticImageData;
+  logoAlt: string;
+  company: string;
+  location?: string;
+  startDate: Date;
+  endDate: Date;
+  roles: {
+    position: string;
+    type: string;
+    startDate: Date;
+    endDate: Date;
+    summary: string[];
+  }[];
+}
+
 export type ExperienceDetails = {
   logo: string | StaticImageData;
   darkModeLogo?: string | StaticImageData;

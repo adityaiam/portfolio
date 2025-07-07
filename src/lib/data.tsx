@@ -28,6 +28,7 @@ import ProjectOrbit from '/public/images/project-orbit.png';
 
 
 import {
+  GroupedExperienceDetails,
   ExperienceDetails,
   ProjectDetails,
   TechDetails,
@@ -140,35 +141,107 @@ export const TECHNOLOGIES: TechDetails[] = [
   },
 ];
 
-export const EXPERIENCES: ExperienceDetails[] = [
+export const EXPERIENCES: GroupedExperienceDetails[] = [
   {
     logo: LogoChrysalis,
     darkModeLogo: LogoChrysalis,
     logoAlt: 'Chrysalis Software & Systems Pvt. Ltd',
-    position: 'Software Developer',
     company: 'Chrysalis Software & Systems Pvt. Ltd',
-    type: 'Full time',
-    startDate: new Date(2024, 7),
-    endDate: new Date(2025, 6),
-    summary: [
-      'Working with the team on web-based and mobile application development.',
+    location: 'Pune',
+    startDate: new Date(2024, 6), // July 2024
+    endDate: new Date(2025, 6),   // July 2025
+    roles: [
+      {
+        position: 'Software Developer',
+        type: 'Full time',
+        startDate: new Date(2024, 10), // Nov 2024
+        endDate: new Date(2025, 6),    // July 2025
+        summary: [
+          'Contributed to scalable React and Web Apps.',
+          'Integrated Firebase Authentication, Firestore, Messaging.',
+          'Optimized native app performance.',
+        ],
+      },
+      {
+        position: 'Software Developer (Internship)',
+        type: 'Internship',
+        startDate: new Date(2024, 6), // July 2024
+        endDate: new Date(2024, 9),   // October 2024
+        summary: [
+          'Supported mobile and web dev, focusing on front-end and backend integration.',
+        ],
+      },
     ],
   },
   {
     logo: LogoIdeasToImpacts,
     darkModeLogo: LogoIdeasToImpactsDark,
     logoAlt: 'Ideas To Impacts Digital',
-    position: 'Data Annotator',
     company: 'Ideas To Impacts Digital Pvt. Ltd, Pune',
-    type: 'Internship',
+    location: 'Pune',
     startDate: new Date(2022, 0),
     endDate: new Date(2022, 3),
-    summary: [
-      'Gathered and processed image data from various sources to ensure accuracy and consistency for analysis and algorithm training.',
-      'Created documentation and reports detailing the annotation process, dataset statistics, and quality metrics to provide insights for model evaluation and improvement.',
+    roles: [
+      {
+        position: 'Data Annotator',
+        type: 'Internship',
+        startDate: new Date(2022, 0),
+        endDate: new Date(2022, 3),
+        summary: [
+          'Annotated image datasets for AI training.',
+          'Created quality reports with metrics.',
+        ],
+      },
     ],
   },
 ];
+
+
+// export const EXPERIENCES: ExperienceDetails[] = [
+//   {
+//     logo: LogoChrysalis,
+//     darkModeLogo: LogoChrysalis,
+//     logoAlt: 'Chrysalis Software & Systems Pvt. Ltd',
+//     position: 'Software Developer',
+//     company: 'Chrysalis Software & Systems Pvt. Ltd',
+//     type: 'Internship',
+//     startDate: new Date(2024, 6), // July 2024
+//     endDate: new Date(2024, 9),   // October 2024
+//     summary: [
+//       'Supported mobile and web development projects, focusing on front-end functionality and backend API connectivity.',
+//     ],
+//   },
+//   {
+//     logo: LogoChrysalis,
+//     darkModeLogo: LogoChrysalis,
+//     logoAlt: 'Chrysalis Software & Systems Pvt. Ltd',
+//     position: 'Software Developer',
+//     company: 'Chrysalis Software & Systems Pvt. Ltd',
+//     type: 'Full time',
+//     startDate: new Date(2024, 10), // November 2024
+//     endDate: new Date(2025, 6),    // July 2025
+//     summary: [
+//       'Contributed to the development of scalable React apps and Web Apps for client use cases.',
+//       'Integrated Firebase Authentication, Firestore, and push notifications using Firebase Messaging.',
+//       'Implemented native features and optimized performance.',
+//     ],
+//   },
+//   {
+//     logo: LogoIdeasToImpacts,
+//     darkModeLogo: LogoIdeasToImpactsDark,
+//     logoAlt: 'Ideas To Impacts Digital',
+//     position: 'Data Annotator',
+//     company: 'Ideas To Impacts Digital Pvt. Ltd, Pune',
+//     type: 'Internship',
+//     startDate: new Date(2022, 0), // January 2022
+//     endDate: new Date(2022, 3),   // April 2022
+//     summary: [
+//       'Annotated image datasets for AI model training.',
+//       'Delivered clean, documented datasets with detailed quality metrics reports.',
+//     ],
+//   },
+// ];
+
 
 export const PROJECTS: ProjectDetails[] = [
   {
