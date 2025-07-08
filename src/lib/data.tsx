@@ -2,7 +2,8 @@ import { Github, Linkedin } from 'lucide-react';
 import { IoLogoWhatsapp } from "react-icons/io5";
 
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
-import LogoTypescript from '/public/images/logos/icon-typescript.svg';
+import LogoGit from '/public/images/logos/Git.svg';
+import LogoJira from '/public/images/logos/Jira.svg';
 import LogoReact from '/public/images/logos/icon-react.svg';
 import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
 import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
@@ -11,10 +12,13 @@ import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
 import LogoFigma from '/public/images/logos/icon-figma.svg';
 import LogoGitHub from '/public/images/logos/icon-github.svg';
 import LogoJava from '/public/images/logos/icon-java.svg';
-import LogoThymeleaf from '/public/images/logos/logo-thymeleaf.svg';
-import LogoSpringBoot from '/public/images/logos/icon-spring-boot.svg';
-import LogoCanva from '/public/images/logos/icon-canva.svg';
-import LogoIntelliJIdea from '/public/images/logos/icons-intellij-idea.svg';
+import LogoFirebase from '/public/images/logos/Firebase.svg';
+import LogoExpress from '/public/images/logos/icon-express.svg';
+import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
+import LogoVite from '/public/images/logos/Vite.svg';
+import LogoPHP from '/public/images/logos/PHP.svg';
+import LogoMySQL from '/public/images/logos/MySQL.svg';
+import LogoGraphQL from '/public/images/logos/GraphQL.svg';
 import LogoGitHubDark from '/public/images/logos/icon-github-dark.svg';
 
 import LogoTDS from '/public/images/logos/logo-tds.svg';
@@ -84,60 +88,116 @@ export const SOCIAL_LINKS = [
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
+  // Frontend
   {
-    label: 'Java',
-    logo: LogoJava,
-  },
-  {
-    label: 'Spring Boot',
-    logo:LogoSpringBoot
-  },
-  {
-    label: 'Thymeleaf',
-    logo:LogoThymeleaf
-  },
-  {
-    label: 'Javascript',
-    logo: LogoJavascript,
-  },
-  // {
-  //   label: 'Typescript',
-  //   logo: LogoTypescript,
-  //   // url: 'https://www.typescriptlang.org/',
-  // },
-  {
-    label: 'React',
+    label: 'React.js',
     logo: LogoReact,
+    category: 'Frontend',
   },
   {
     label: 'Next.js',
     logo: LogoNextjs,
+    category: 'Frontend',
   },
+  {
+    label: 'React Native',
+    logo: LogoReact,
+    category: 'Frontend',
+  },
+  {
+    label: 'Vite.js',
+    logo: LogoVite,
+    category: 'Frontend',
+  },
+  {
+    label: 'JavaScript',
+    logo: LogoJavascript,
+    category: 'Frontend',
+  },
+  {
+    label: 'Tailwind CSS',
+    logo: LogoTailwindcss,
+    category: 'Frontend',
+  },
+
+  // Backend
   {
     label: 'Node.js',
     logo: LogoNodejs,
+    category: 'Backend',
   },
   {
-    label: 'Tailwindcss',
-    logo: LogoTailwindcss,
+    label: 'Express.js',
+    logo: LogoExpress,
+    darkModeLogo: LogoExpressLight,
+    category: 'Backend',
   },
+  {
+    label: 'GraphQL',
+    logo: LogoGraphQL,
+    category: 'Backend',
+  },
+  {
+    label: 'Java',
+    logo: LogoJava,
+    category: 'Backend',
+  },
+  {
+    label: 'PHP',
+    logo: LogoPHP,
+    category: 'Backend',
+  },
+
+  // Database
+  {
+    label: 'MongoDB',
+    logo: LogoMongoDB,
+    category: 'Database',
+  },
+  {
+    label: 'MySQL',
+    logo: LogoMySQL,
+    category: 'Database',
+  },
+  // {
+  //   label: 'Firebase Firestore',
+  //   logo: LogoFirebase,
+  //   category: 'Database',
+  // },
+
+  // Cloud & Services
+  // {
+  //   label: 'Firebase Authentication',
+  //   logo: LogoFirebase,
+  //   category: 'Cloud',
+  // },
+  {
+    label: 'Firebase',
+    logo: LogoFirebase,
+    category: 'Cloud',
+  },
+
+  // Tools
   {
     label: 'Figma',
     logo: LogoFigma,
+    category: 'Tools',
   },
   {
-    label: 'Canva',
-    logo: LogoCanva,
+    label: 'Git',
+    logo: LogoGit,
+    category: 'Tools',
   },
   {
     label: 'GitHub',
     logo: LogoGitHub,
     darkModeLogo: LogoGitHubDark,
+    category: 'Tools',
   },
   {
-    label: 'IntelliJ IDEA',
-    logo: LogoIntelliJIdea,
-    // darkModeLogo: LogoIntelliJIdea,
+    label: 'Jira',
+    logo: LogoJira,
+    category: 'Tools',
   },
 ];
 

@@ -4,8 +4,9 @@ export type TechDetails = {
   logo: string | StaticImageData;
   darkModeLogo?: string | StaticImageData;
   label: string;
-  // url: string;
+  category: 'Frontend' | 'Backend' | 'Database' | 'Cloud' | 'Tools';
 };
+
 
 export interface GroupedExperienceDetails {
   logo: StaticImageData;
