@@ -56,7 +56,7 @@ const ExperienceSection = () => {
                     {role.position}
                   </h4>
                   <p className="text-sm mb-2">
-                    {formatDate(role.startDate)} – {formatDate(role.endDate)} · {role.type}
+                    {formatDate(role.startDate)} – {role.endDate ? formatDate(role.endDate) : 'Present'}
                   </p>
                   <ul className="list-disc list-inside text-sm space-y-1">
                     {role.summary.map((point, pIndex) => (
