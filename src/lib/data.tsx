@@ -215,7 +215,7 @@ export const EXPERIENCES: GroupedExperienceDetails[] = [
         position: 'Software Developer',
         type: 'Full time',
         startDate: new Date(2024, 10), // Nov 2024
-        endDate: new Date(2025, 6),    // July 2025
+        // endDate: new Date(2025, 6),    // July 2025
         summary: [
           'Contributed to scalable React and Web Apps.',
           'Integrated Firebase Authentication, Firestore, Messaging.',
