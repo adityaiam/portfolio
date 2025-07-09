@@ -15,12 +15,12 @@ export interface GroupedExperienceDetails {
   company: string;
   location?: string;
   startDate: Date;
-  endDate: Date;
+  endDate?: Date | null;
   roles: {
     position: string;
     type: string;
     startDate: Date;
-    endDate: Date;
+    endDate?: Date | null;
     summary: string[];
   }[];
 }
