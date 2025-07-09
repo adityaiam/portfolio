@@ -15,7 +15,7 @@ export interface GroupedExperienceDetails {
   company: string;
   location?: string;
   startDate: Date;
-  endDate: string;
+  endDate: Date;
   roles: {
     position: string;
     type: string;
