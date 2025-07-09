@@ -40,7 +40,7 @@ const ExperienceSection = () => {
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
                   {experience.location} · {formatDate(experience.startDate)} –{' '}
-                  {formatDate(experience.endDate)}
+                  {experience.endDate ? formatDate(experience.endDate) : 'Present'}
                 </p>
               </div>
             </div>
